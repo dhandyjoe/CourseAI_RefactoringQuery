@@ -361,10 +361,10 @@ async function cleanUsersData() {
 		await cleanNullValues();
 
 		// Step 4: Remove duplicates
-		await removeDuplicates();
+		// await removeDuplicates();
 
 		// Step 5: Clean orphaned records
-		await cleanOrphanedRecords();
+		// await cleanOrphanedRecords();
 
 		// Step 6: Final analysis
 		console.log("📊 Final data quality analysis:");
@@ -404,7 +404,7 @@ module.exports = {
 	analyzeDataQuality,
 	createBackup,
 	cleanNullValues,
-	removeDuplicates,
-	cleanOrphanedRecords,
+	// removeDuplicates,
+	// cleanOrphanedRecords,
 	executeSqlFile
 };

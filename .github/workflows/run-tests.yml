@@ -46,9 +46,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # - name: Set up database
-      #   run: |
-      #     PGPASSWORD=qwerty psql -h localhost -U postgres -d workshop_db_final -f database-schema.sql
+      - name: Set up database
+        run: npm run db-create
 
       - name: Clean database
         run: npm run db-clean

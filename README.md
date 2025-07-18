@@ -1,5 +1,20 @@
 [![Codecov](https://codecov.io/gh/BINAR-Learning/demo-repository/graph/badge.svg?token=A9U236VZ3Q)](https://codecov.io/gh/BINAR-Learning/demo-repository)
 
+# 🛠 Assignment Refactoring Code & Create ETL Clean Data
+## Refactoring Query
+### Before
+<img width="943" height="802" alt="image" src="https://github.com/user-attachments/assets/b89e88a6-672f-48fa-ab25-3ab3d631bbf7" />
+
+### After
+<img width="1019" height="773" alt="image" src="https://github.com/user-attachments/assets/f7da12ab-dccf-4547-bd16-0dca752e101c" />
+
+## Create ETL Data
+### Before Clean Data
+<img width="1169" height="404" alt="image" src="https://github.com/user-attachments/assets/48145bd9-f5a5-4816-bb6d-31f49f6693f1" />
+
+### Before Clean Data
+<img width="1132" height="418" alt="image" src="https://github.com/user-attachments/assets/59de9ee8-6546-4d60-a1b9-fd927b028ea9" />
+
 # 🛠 Workshop Project - Sesi 11 & 12
 
 A Next.js application demonstrating JWT authentication, database integration, and legacy code examples for refactoring workshops.
