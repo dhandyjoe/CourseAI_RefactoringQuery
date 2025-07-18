@@ -10,6 +10,30 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    services:
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: qwerty
+          POSTGRES_DB: workshop_db_final
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+    env:
+      DB_HOST: localhost
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASSWORD: qwerty
+      DB_NAME: workshop_db_final
+      JWT_SECRET: your-super-secret-jwt-key-for-workshop
+      NODE_ENV: test
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -21,7 +45,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+        
       - name: Clean database
         run: npm run db-clean
 
