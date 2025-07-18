@@ -1,6 +1,6 @@
 [![Codecov](https://codecov.io/gh/BINAR-Learning/demo-repository/graph/badge.svg?token=A9U236VZ3Q)](https://codecov.io/gh/BINAR-Learning/demo-repository)
 
-# 🛠 Assignment Refactoring Code & Create ETL Clean Data
+# 📝 Assignment Refactoring Code & Create ETL Clean Data
 ## Refactoring Query
 ### Before
 <img width="943" height="802" alt="image" src="https://github.com/user-attachments/assets/b89e88a6-672f-48fa-ab25-3ab3d631bbf7" />
@@ -14,6 +14,11 @@
 
 ### Before Clean Data
 <img width="1132" height="418" alt="image" src="https://github.com/user-attachments/assets/59de9ee8-6546-4d60-a1b9-fd927b028ea9" />
+
+## Integration ETL with CI/CD Github
+<img width="1157" height="1271" alt="image" src="https://github.com/user-attachments/assets/6246df22-46e4-48d5-8e83-289e062b16c7" />
+
+
 
 # 🛠 Workshop Project - Sesi 11 & 12
 
